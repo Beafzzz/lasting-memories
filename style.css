@@ -267,11 +267,6 @@ header>a {
     box-shadow: 0 0 5px black;
 }
 
-.p4-input::placeholder {
-    color: #999;
-    font-size: 30px;
-}
-
 .p4-button{
     width: 210px;
     height: 80px;
@@ -301,11 +296,23 @@ header>a {
     left: 1036px;
 }
 
-.p5-img-3{
+.p5-hard-img{
     position: relative;
-    top: 300px;
-    left: 500px;
-    z-index: 1;
+    width: 400px;
+    left: 1250px;
+    bottom: 118px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.p5-img-overlay{
+    position: relative;
+    bottom: 145px;
+    left: 0;
+    width: calc(100% + 2px);
+    height: 36%;
+    background-color: white;
+    z-index: 100;
 }
 
 .p5-main-text{
@@ -314,11 +321,215 @@ header>a {
     position: relative;
     color: #E5E2DE;
     text-align: center;
-    bottom: 600px;
+    bottom: 1000px;
+}
+
+.p5-button{
+    width: 286px;
+    height: 80px;
+    background-color:transparent;
+    border: 1px solid #E5E2DE;
+    border-radius: 67px;
+    color: #E5E2DE;
+    font-size: 30px;
+    cursor: pointer;
+    position: relative;
+    bottom: 800px;
+    left: calc(44%);
 }
 
 .page6{
     width: 100%;
     height: 984px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     z-index: 10;
+}
+
+.p6-text{
+    width: 650px;
+    text-align: center;
+    font-size: 78px;
+    color: #20201F;
+}
+
+.p6-button{
+    width: 248px;
+    height: 80px;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 67px;
+    cursor: pointer;
+    margin-top: 55px;
+    border: 1px solid #20201F;
+}
+
+.page7{
+    display: flex;
+    width: 100%;
+    height: 1344px;
+    background-color: #F7F7F7;
+}
+
+.p7-column-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 50px;
+    gap: 102px;
+}
+
+.p7-head-text{
+    font-size: 109px;
+    color: #20201F;
+}
+
+.p7-main-text{
+    font-size: 30px;
+    width: 686px;
+}
+
+.p7-button{
+    width: 286px;
+    height: 80px;
+    font-size: 30px;
+    background-color: transparent;
+    border-radius: 67px;
+    cursor: pointer;
+    border: 1px solid #20201F;
+}
+
+.page8{
+    width: 100%;
+    height: 1280px;
+}
+
+.page9{
+    width: 100%;
+    height: 462px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E2DE;
+}
+
+.p9-head-text{
+    font-size: 48px;
+    width: 380px;
+    position: relative;
+    right: 150px;
+}
+
+.p9-column{
+    display: flex;
+    flex-direction: column;
+    gap: 38px;
+}
+
+.p9-email-text{
+    font-size: 30px;
+}
+
+#p9-input{
+    width: 547px;
+    height: 99px;
+    border-radius: 23px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid #8B8B8B;
+}
+
+#p9-input:focus {
+    border-color: black;
+    outline: none;
+    box-shadow: 0 0 5px black;
+}
+
+.p9-button{
+    width: 792px;
+    height: 64px;
+    border-radius: 23px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid #8B8B8B;
+}
+
+.p9-button-1{
+    width: 171px;
+    height: 80px;
+    position: relative;
+    left: 50px;
+    bottom: 100px;
+    border-radius: 67px;
+    font-size: 30px;
+    background-color: transparent;
+    border: 1px solid #20201F;
+}
+
+.page10{
+    width: 100%;
+    height: 750px;
+    display: flex;
+    background-color: #20201F;
+}
+
+.p10-ico-img{
+    margin-left: 134px;
+    margin-right: 250px;
+    margin-top: 120px;
+}
+
+.p10-right-side-row{
+    display: flex;
+    flex-direction: row;
+    gap: 108px;
+}
+
+.p10-right-side-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 120px;
+}
+
+
+.head-text span{
+    font-size: 30px;
+    color: #E5E2DE;
+    margin-right: 138px;
+}
+
+.p10-to-row{
+    display: flex;
+    flex-direction: row;
+    gap: 109px;
+}
+
+.p10-column-text p{
+    font-size: 30px;
+    color: #E5E2DE;
+    margin-bottom: 15px;
+}
+
+#p10-column-head-text{
+    margin-bottom: 45px;
+    font-family: "Work sans", sans-serif;
+}
+
+.p10-big-text{
+    width: 176px;
+}
+
+.p10-under-text{
+    display: flex;
+    gap: 200px;
+    margin-top: 160px;
+}
+
+.p10-under-text p{
+    font-size: 25px;
+    color: #E5E2DE;
+    font-family: "Work sans", sans-serif;
 }
